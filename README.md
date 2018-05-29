@@ -4,7 +4,7 @@
 
 install dependencies:
 
-```python
+```
 pip3 install -r requirements
 ```
 
@@ -14,7 +14,7 @@ Periodic service contains the component that handles the periodic service.
 
 change the values in config.json to change the configuration.
 
-```
+```javascript
 {
     "end_point": "https://postman-echo.com/get",
     "interval": 30, // runs every 30secs
@@ -28,11 +28,13 @@ change the values in config.json to change the configuration.
 Start the service:
 
 ```
-python3 start.py // run in PeriodicService cause this looks for config.json in current directory
+python3 start.py // run in PeriodicService directory cause this looks for config.json in current directory
 ```
 
 # Run the REST API Server
 
 It is in REST API directory.
 
+```
 python3 app.py
+```
