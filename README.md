@@ -17,8 +17,8 @@ change the values in config.json to change the configuration.
 ```
 {
     "end_point": "https://postman-echo.com/get",
-    "interval": 30,
-    "list_size": 50,
+    "interval": 30, // runs every 30secs
+    "list_size": 50, // only 50 elements are stored in redis at a time
     "concurrency": 1000, // reduce the concurrency & interval for quick testing
     "redis_host": "localhost",
     "redis_port": 6379
