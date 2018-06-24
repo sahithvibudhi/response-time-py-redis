@@ -1,4 +1,6 @@
-# response-time-py-redis
+# Response time watcher
+
+Shoots concurrent requests and computes the min, average and max reponse times of an endpoint on every interval, maintains a list of X recent response times in redis.
 
 ### NOTE: Use Python3
 
